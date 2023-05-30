@@ -1,21 +1,15 @@
+# 入力を受け取る
 N = int(input())
 S = input()
 T = input()
 ans = "Yes"
+
+# 与えられた条件を調べる
 for i in range(N):
-    #print(S[i], T[i])
     if S[i] != T[i]:
-        if S[i] ==("0" or "o"):
-            #print(S[i], T[i])
-            if not(T[i] == "0" or "o"):
-                ans = "No"
-                print(S[i], T[i])
-        elif S[i] == ("1" or "l"):
-            #print(S[i], T[i])
-            if not(T[i] == "1" or "l"):
-                ans = "No"
-                print(S[i], T[i])
-        else:
-            #print("")
-            ans = "No"
-print(ans)    
+        if not(S[i] == "1" and T[i] == "l"):
+            if not(S[i] == "l" and T[i] == "1"):
+                if not(S[i] == "0" and T[i] == "o"):
+                    if not(S[i] == "o" and T[i] == "0"):
+                        ans = "No"
+print(ans)
