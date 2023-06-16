@@ -8,3 +8,4 @@ atcoder: atcoder用フォルダ
 [AtCoder Beginners Selection](https://atcoder.jp/contests/abs)  
 [競技プログラミングの鉄則](https://atcoder.jp/contests/tessoku-book/tasks)  
 [AtCoder](https://atcoder.jp/home)  
+[ゼロから作る Deep Learning](https://github.com/oreilly-japan/deep-learning-from-scratch/tree/master)  
